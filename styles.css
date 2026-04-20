@@ -1,42 +1,52 @@
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #fafafa;
-    color: #333;
+    font-family: "Georgia", "Times New Roman", serif;
+    background: #6b4c2a;
+    color: #f0e8df;
 }
 
 .hero {
     text-align: center;
     padding: 60px 20px;
-    background: #fff;
-    border-bottom: 1px solid #eee;
+    background: #6b4c2a;
+    border-bottom: 1px solid #8a6340;
 }
 
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     margin-bottom: 20px;
-    font-family: "Georgia", "Times New Roman", serif;
     letter-spacing: 1px;
+    color: #fff8f2;
 }
 
 
 img {
     display: block;
-    width: 80%;
+    width: calc(100% + 40px);
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 -20px;
 }
 
 .subheader {
     font-size: 1.2rem;
     font-weight: 300;
     margin-top: 10px;
+    color: #d4b89a;
+}
+
+.subheader a {
+    color: #d4b89a;
 }
 
 .info {
-    padding: 40px 20px;
-    max-width: 600px;
+    padding: 20px 20px;
+    max-width: 800px;
     margin: auto;
     text-align: center;
     font-size: 1.1rem;
@@ -51,21 +61,24 @@ img {
 .nav-links a {
     display: inline-block;
     padding: 12px 24px;
-    background: #333;
+    background: #a0522d;
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
     font-size: 1rem;
     transition: background 0.2s;
+    margin-top: 8px;
 }
 
 .nav-links a:hover {
-    background: #555;
+    background: #c2682f;
 }
 
-/* Hotel page styles */
+/* Subpage header */
 .hero-small {
     padding: 40px 20px;
+    background: #6b4c2a;
+    border-bottom: 1px solid #8a6340;
 }
 
 .hero-small h1 {
@@ -89,6 +102,7 @@ img {
     text-align: center;
     font-size: 1.1rem;
     line-height: 1.6;
+    color: #f0e8df;
 }
 
 .hotels {
@@ -98,17 +112,16 @@ img {
 }
 
 .hotel-card {
-    background: #fff;
-    border: 1px solid #e0e0e0;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
     border-radius: 8px;
     padding: 30px;
     margin-bottom: 24px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .hotel-header {
     margin-bottom: 20px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
     padding-bottom: 15px;
 }
 
@@ -116,13 +129,13 @@ img {
     font-family: "Georgia", "Times New Roman", serif;
     font-size: 1.5rem;
     margin: 0 0 8px 0;
-    color: #222;
+    color: #f5ede4;
 }
 
 .hotel-name-cn {
     display: block;
     font-size: 1.1rem;
-    color: #666;
+    color: #d4b89a;
     margin-bottom: 8px;
 }
 
@@ -156,7 +169,7 @@ img {
 
 .hotel-detail .label {
     font-size: 0.85rem;
-    color: #888;
+    color: #d4b89a;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     margin-bottom: 4px;
@@ -164,16 +177,16 @@ img {
 
 .hotel-detail .value {
     font-size: 1rem;
-    color: #333;
+    color: #f0e8df;
 }
 
 .hotel-note {
-    background: #f8f8f8;
+    background: rgba(255,255,255,0.06);
     padding: 15px;
-    border-left: 3px solid #d4af37;
+    border-left: 3px solid #a0522d;
     margin: 0 0 20px 0;
     font-style: italic;
-    color: #555;
+    color: #e0cfc0;
 }
 
 .hotel-links {
@@ -205,6 +218,7 @@ img {
     text-align: center;
     font-size: 1.1rem;
     line-height: 1.6;
+    color: #f0e8df;
 }
 
 .tips-page {
@@ -220,8 +234,8 @@ img {
 .tip-category-title {
     font-family: "Georgia", "Times New Roman", serif;
     font-size: 1.6rem;
-    color: #222;
-    border-bottom: 2px solid #d4af37;
+    color: #f5ede4;
+    border-bottom: 2px solid #a0522d;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
@@ -233,36 +247,36 @@ img {
 }
 
 .tip-card {
-    background: #fff;
-    border: 1px solid #e0e0e0;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
     border-radius: 8px;
     padding: 24px 28px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .tip-title {
     font-family: "Georgia", "Times New Roman", serif;
     font-size: 1.1rem;
-    color: #222;
+    color: #f5ede4;
     margin: 0 0 10px 0;
 }
 
 .tip-body {
     font-size: 1rem;
     line-height: 1.6;
-    color: #444;
+    color: #e0cfc0;
     margin: 0;
 }
 
 .hotels-footer {
     text-align: center;
     padding: 20px;
-    border-top: 1px solid #eee;
-    background: #fff;
+    border-top: 1px solid #8a6340;
+    background: #5a3e28;
+    color: #d4b89a;
 }
 
 .hotels-footer a {
-    color: #333;
+    color: #d4b89a;
     text-decoration: none;
 }
 
@@ -272,4 +286,213 @@ img {
 
 .small-image {
    width: 30%;
+}
+
+/* Shared page layout */
+.page-intro {
+    padding: 30px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #f0e8df;
+}
+
+.page-content {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+}
+
+.section-title {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.6rem;
+    color: #f5ede4;
+    border-bottom: 2px solid #a0522d;
+    padding-bottom: 10px;
+    margin: 40px 0 20px;
+}
+
+/* Venue & Schedule */
+.venue-card {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.venue-header h2 {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.6rem;
+    margin: 0 0 6px;
+    color: #f5ede4;
+}
+
+.venue-location {
+    display: block;
+    font-size: 1rem;
+    color: #d4b89a;
+    margin-bottom: 16px;
+}
+
+.venue-description {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #e8d8c8;
+    margin: 0;
+}
+
+.schedule-section {
+    margin-top: 10px;
+}
+
+.schedule-note {
+    color: #d4b89a;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.timeline-item {
+    display: flex;
+    gap: 24px;
+    padding: 24px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.timeline-item:last-child {
+    border-bottom: none;
+}
+
+.timeline-time {
+    min-width: 110px;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #e0920d;
+    padding-top: 4px;
+    font-weight: bold;
+}
+
+.timeline-body h3 {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.15rem;
+    color: #f5ede4;
+    margin: 0 0 8px;
+}
+
+.timeline-body p {
+    margin: 0;
+    color: #e0cfc0;
+    line-height: 1.6;
+}
+
+/* About Us */
+.story-section {
+    display: flex;
+    gap: 28px;
+    padding: 32px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.story-section:last-child {
+    border-bottom: none;
+}
+
+.story-year {
+    min-width: 90px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #a0afaf;
+    padding-top: 6px;
+}
+
+.story-body h2 {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.3rem;
+    color: #f5ede4;
+    margin: 0 0 12px;
+}
+
+.story-body p {
+    margin: 0;
+    color: #e0cfc0;
+    line-height: 1.75;
+    font-size: 1.05rem;
+}
+
+/* Pre-Wedding Activities */
+.activities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.activity-card {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 8px;
+    padding: 28px 24px;
+    text-align: center;
+}
+
+.activity-icon {
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+
+.activity-card h3 {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.2rem;
+    color: #f5ede4;
+    margin: 0 0 10px;
+}
+
+.activity-card p {
+    color: #e0cfc0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0 0 16px;
+}
+
+.activity-status {
+    display: inline-block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #fffff;
+    border: 1px solid #ffffff;
+    padding: 3px 10px;
+    border-radius: 12px;
+}
+
+.activities-footer-note {
+    text-align: center;
+    color: #d4b89a;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+/* Dark-theme overrides for subpages */
+.hero-small {
+    background: #6b4c2a;
+    border-bottom: 1px solid #8a6340;
+}
+
+.hotels-footer {
+    background: #5a3e28;
+    border-top: 1px solid #8a6340;
+    color: #d4b89a;
+}
+
+.hotels-footer a {
+    color: #d4b89a;
 }
