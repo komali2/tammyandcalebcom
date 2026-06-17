@@ -4,6 +4,8 @@
     font-style: normal;
 }
 
+
+
 body {
     margin: 0;
     font-family: "Georgia", "Times New Roman", serif;
@@ -46,6 +48,7 @@ img {
 
 .info {
     padding: 20px 20px;
+    padding-top: 0px;
     max-width: 800px;
     margin: auto;
     text-align: center;
