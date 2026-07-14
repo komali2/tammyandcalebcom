@@ -9,14 +9,14 @@
 body {
     margin: 0;
     font-family: "Georgia", "Times New Roman", serif;
-    background: #6b4c2a;
+    background: #476D5E;
     color: #f0e8df;
 }
 
 .hero {
     text-align: center;
     padding: 60px 20px;
-    background: #6b4c2a;
+    background: #476D5E;
     border-bottom: 1px solid #8a6340;
 }
 
@@ -80,7 +80,7 @@ img {
 /* Subpage header */
 .hero-small {
     padding: 40px 20px;
-    background: #6b4c2a;
+    background: #476D5E;
     border-bottom: 1px solid #8a6340;
 }
 
@@ -486,7 +486,7 @@ img {
 
 /* Dark-theme overrides for subpages */
 .hero-small {
-    background: #6b4c2a;
+    background: #476D5E;
     border-bottom: 1px solid #8a6340;
 }
 
