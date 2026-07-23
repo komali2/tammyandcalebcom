@@ -1,3 +1,8 @@
+:root {
+    --link-background: #D6DEE8;
+}
+
+
 .italianno-regular {
     font-family: "Italianno", cursive;
     font-weight: 400;
@@ -64,8 +69,8 @@ img {
 .nav-links a {
     display: inline-block;
     padding: 12px 24px;
-    background: #a0522d;
-    color: #fff;
+    background: var(--link-background);
+    color: #000;
     text-decoration: none;
     border-radius: 4px;
     font-size: 1rem;
@@ -74,7 +79,7 @@ img {
 }
 
 .nav-links a:hover {
-    background: #c2682f;
+    filter: brightness(0.6);
 }
 
 /* Subpage header */
@@ -196,6 +201,7 @@ img {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+    margin-bottom: 8px;
 }
 
 .hotel-links a {
@@ -275,17 +281,8 @@ img {
     padding: 20px;
     border-top: 1px solid #8a6340;
     background: #5a3e28;
-    color: #d4b89a;
 }
 
-.hotels-footer a {
-    color: #d4b89a;
-    text-decoration: none;
-}
-
-.hotels-footer a:hover {
-    text-decoration: underline;
-}
 
 .small-image {
    width: 30%;
@@ -376,7 +373,6 @@ img {
 
 .timeline-time {
     min-width: 110px;
-    font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     color: #e0920d;
@@ -493,9 +489,5 @@ img {
 .hotels-footer {
     background: #5a3e28;
     border-top: 1px solid #8a6340;
-    color: #d4b89a;
-}
-
-.hotels-footer a {
     color: #d4b89a;
 }
